@@ -5,7 +5,8 @@ I. Phân tích
 
 Pipeline đưa dữ liệu từ lệnh này sang lệnh tiếp theo. Trong PowerShell, dữ liệu được truyền giữa các lệnh qua pipeline:
 
-Get-Content ──|──> Select-String ──|──> Measure-Object
+Get-Content──|──> Select-String ──|──> Measure-Object
+
  (đọc log)          (lọc TIMEOUT)          (đếm dòng khớp)
 
 
