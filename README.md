@@ -7,7 +7,7 @@ Pipeline đưa dữ liệu từ lệnh này sang lệnh tiếp theo. Trong Power
 
 Get-Content──|──> Select-String ──|──> Measure-Object
 
- (đọc log)          (lọc TIMEOUT)          (đếm dòng khớp)
+ (đọc log)            (lọc TIMEOUT)            (đếm dòng khớp)
 
 
  II. Câu lệnh
